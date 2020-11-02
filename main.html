@@ -1,0 +1,20 @@
+<body style="background-color:hsla(0, 100%, 90%, 0.3);">
+  <div class ="editor"><h1 class="h1"> Basic Sentence Editor </h1>
+<form class= "convertcase"><textarea class ="textbox" id= "stringbox"> Put your text here!
+  
+</textarea>
+<div id="outer">
+ 
+  <div class="inner"><button onClick="return convertstring(stringbox, 'titlecase')" title="Capitalize the first letter of every word, omitting common words like 'and, then, the, an, a'">Title Case</button></div>
+  <div class="inner"><button onClick="return convertstring(stringbox, 'capitalcase')" title="Capitalize the first letter of each word">Capital Case</button></div>
+ <div class="inner"><button onClick="return convertstring(stringbox, 'lowercase')" title="Make everything lowercase">Lower Case</button></div>
+   <div class="inner"><button onClick="return convertstring(stringbox, 'uppercase')" title="Make everything upper case">Upper Case</button></div>
+  <div class="inner"><button onClick="return convertstring(stringbox, 'randomcase')" title="Randomize what gets capitalized">Random Case</button></div>
+  <br>
+  <div class="count"><p><b>Word Count:</b> <span id="wordcount">1</span><br>
+  <b>Character Count:</b> <span id="charcount">0</span></p></div>
+   </div>
+</form>
+
+</div>
+</body>
