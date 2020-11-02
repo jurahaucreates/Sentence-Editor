@@ -1,0 +1,19 @@
+.h1 {
+  text-align: center;
+  color: black;
+  text-shadow: 2px 2px 2px white;
+}
+.textbox {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+  width: 80%;
+  height: 10em;
+}
+#outer {
+  width: 100%;
+  text-align: center;
+}
+.inner {
+  display: inline-block;
+}
